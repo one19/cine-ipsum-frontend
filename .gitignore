@@ -1,0 +1,11 @@
+logs
+*.log
+
+# Coverage directory used by tools like istanbul
+.nyc_output
+coverage
+
+node_modules
+
+.cache
+dist
