@@ -22,7 +22,7 @@ export default class QueryForm extends Component {
     const markov = new Markov();
     markov.train(data);
 
-    this.setState({showForm: false, markov, search: params.query});
+    this.setState({showForm: false, markov, search: params.movie});
   };
 
   render() {
